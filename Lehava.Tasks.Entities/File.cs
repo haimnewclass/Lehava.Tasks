@@ -11,6 +11,7 @@ namespace Lehava.Tasks.Entities
         public void Run()
         {
             string fileName = @"C:\a\1.txt";
+
             // create file
             System.IO.File.WriteAllText(fileName, "*");
         }
